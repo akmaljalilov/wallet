@@ -1,0 +1,4 @@
+github.com/akmaljalilov/bank/v2 v2.0.0 h1:wupvtn+Vo3VOgVeH6HnD+rtlRuu8KC69C3URAOCLTk4=
+github.com/akmaljalilov/bank/v2 v2.0.0/go.mod h1:fKIkh+dsakl8aczEw8X97QPbver234MrGXWEYov8K6g=
+github.com/google/uuid v1.3.0 h1:t6JiXgmwXMjEs8VusXIJk2BXHsn+wx8BZdTaoZ5fu7I=
+github.com/google/uuid v1.3.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
