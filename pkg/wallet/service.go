@@ -12,9 +12,16 @@ var dbAccounts = []*types.Account{
 
 func FindAccountById(id int64) (*types.Account, error) {
 	for _, account := range dbAccounts {
-		if account.ID ==id {
+		if account.ID == id {
 			return account, nil
 		}
 	}
-	return nil, types.ErrAccountNotFound{}
+	return nil, ErrAccountNotFound{}
+}
+
+type ErrAccountNotFound struct {
+}
+
+func (e ErrAccountNotFound) Error() string {
+	return "account not found"
 }
